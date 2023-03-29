@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 
-body {
+.body-container {
     background: rgb(153, 196, 129);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     /* padding-bottom: 30px;
     padding-top: 30px; */
 }
